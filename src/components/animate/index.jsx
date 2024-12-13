@@ -27,7 +27,7 @@ const Conveyor = () => {
   }, []);
 
   return (
-    <div className="flex overflow-hidden">
+    <div className="flex md:container mx-auto py-6 overflow-hidden">
       {items.map(({ icon: Icon, text }, index) => (
         <Item key={index} Icon={Icon} text={text} index={index} totalItems={items.length} />
       ))}

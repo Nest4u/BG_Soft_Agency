@@ -33,3 +33,34 @@
 .animate-slide-vertical-reverse {
   animation: slide-vertical-reverse 4s ease infinite;
 }
+.slick-dots li.slick-active div {
+  background-color: black !important;
+}
+
+
+
+
+
+
+
+
+
+
+.progress-container {
+  
+ 
+  
+  background-color: #e0e0e0;
+}
+
+.progress-line {
+  width: 0;
+  height: 100%;
+  background-color: #000;
+  transform-origin: left;
+  transition: background-color 0.3s;
+}
+#container{
+  width: 400%;
+}
+
